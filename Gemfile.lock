@@ -13,6 +13,8 @@ GEM
       addressable (~> 2.7)
     method_source (1.0.0)
     mini_portile2 (2.4.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.9-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.1)
@@ -24,7 +26,7 @@ GEM
     public_suffix (4.0.4)
     rainbow (3.0.0)
     regexp_parser (1.7.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -58,6 +60,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   dotenv
