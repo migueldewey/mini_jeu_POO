@@ -12,9 +12,10 @@ GEM
     launchy (2.5.0)
       addressable (~> 2.7)
     method_source (1.0.0)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.9-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.13.9-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.19.1)
     parser (2.7.1.1)
       ast (~> 2.4.0)
@@ -22,6 +23,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.4)
+    racc (1.6.0)
     rainbow (3.0.0)
     regexp_parser (1.7.0)
     rexml (3.2.4)
@@ -58,6 +60,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   dotenv
